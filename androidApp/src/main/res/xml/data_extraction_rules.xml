@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <data-extraction>
+        <group domain="file" enabled="false">
+            <file-filter>
+                <include domain="file" path="." />
+            </file-filter>
+        </group>
+    </data-extraction>
+    <cloud-backup>
+        <include domain="file" path="." />
+    </cloud-backup>
+</data-extraction-rules>
